@@ -1,0 +1,75 @@
+
+.api_section {
+	width: 100%;
+	text-align: left;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.api_title {
+	border-left: 5px solid #FFA500;
+    padding: 20px 0px;
+    text-indent: 25px;
+    border-top: 1px solid #DDD;
+}
+
+.api_subtitle {
+	text-indent: 25px;
+}
+
+.api_description {
+	text-indent: 25px;
+}
+
+.api_key_text {
+	height: 14px;
+    margin-bottom: 0;
+    width: 120px;
+}
+
+table {
+  background-color: #f7f7f9;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 6px 25px 6px 10px;
+}
+
+.table-contz {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+  float: left;
+  width:100%;
+}
+
+.result_success {
+    background-color: #D1F2EB;
+}
+
+.result_fail {
+    background-color: #FADBD8;
+}
+
+.result {
+    padding: 12px 18px;
+    border: 1px solid #e3e3e4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+    font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+    max-width: 100%;
+    max-height: 500px;
+    overflow: auto;
+    margin-top: 16px;
+    font-size: 11px;
+    line-height: 14px;
+    word-break: break-all;
+    margin-bottom: 40px;
+    width: 100%;
+}
